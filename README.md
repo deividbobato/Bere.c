@@ -2,7 +2,7 @@
 
 A simple point-of-sale (POS) system written in C, simulating a small grocery store's daily operations.
 
-Developed as a monthly project for the Software Engineering program at UniAmérica (Grade: 90/100).
+Developed as a monthly project for the Software Engineering program at UniAmérica.
 
 ---
 
@@ -42,11 +42,3 @@ gcc Bere.c -o bere
 - `switch` for menu navigation
 - Global variables for state accumulation
 - Basic input/output with `scanf` and `printf`
-
----
-
-## Author
-
-**Deivid Nunes Bobato**  
-Software Engineering student — UniAmérica, Foz do Iguaçu, PR  
-[LinkedIn](https://www.linkedin.com/in/deivid-nunes-bobato-0531b5217) · [bobato.dede@gmail.com](mailto:bobato.dede@gmail.com)
