@@ -1,32 +1,32 @@
-# Bere.c 🛒
+# Bere.c 
 
-A simple point-of-sale (POS) system written in C, simulating a small grocery store's daily operations.
+Um sistema simples de PDV escrito em C, simulando as operações diárias de uma pequena mercearia.
 
-Developed as a monthly project for the Software Engineering program at UniAmérica.
+Desenvolvido como projeto mensal do curso de Engenharia de Software da UniAmérica.
 
 ---
 
-## Features
+## Funcionalidades
 
-- **Cleaning supplies module** — product selection and subtotal tracking
-- **Food module** — product selection with running subtotal
-- **Bakery module** — product selection with running subtotal
-- **Payment module** — cash (with tiered discounts) or card, change calculation
-- **End-of-day report** — total sales count and daily revenue on exit
+- Módulo de material de limpeza — seleção de produtos e acompanhamento de subtotal
+- Módulo de alimentos — seleção de produtos com subtotal acumulado
+- Módulo de padaria — seleção de produtos com subtotal acumulado
+- Módulo de pagamento — dinheiro (com descontos progressivos) ou cartão, cálculo de troco
+- Relatório de fechamento do dia — quantidade total de vendas e faturamento diário ao encerrar
 
-## Discount rules (cash only)
+## Regras de desconto (apenas dinheiro)
 
-| Purchase total | Discount |
+| Valor da compra | Desconto |
 |---|---|
-| R$ 30.00 – R$ 49.99 | 5% |
-| R$ 50.00 – R$ 99.99 | 10% |
-| R$ 100.00+ | 18% |
+| R$ 30,00 – R$ 49,99 | 5% |
+| R$ 50,00 – R$ 99,99 | 10% |
+| R$ 100,00 ou mais | 18% |
 
 ---
 
-## How to compile and run
+## Como compilar e executar
 
-**Requirements:** GCC (or any C compiler)
+Requisitos: GCC (ou qualquer compilador C)
 
 ```bash
 gcc Bere.c -o bere
@@ -35,10 +35,10 @@ gcc Bere.c -o bere
 
 ---
 
-## Concepts used
+## Conceitos utilizados
 
-- Functions and modular structure
-- `do-while` and `while` loops
-- `switch` for menu navigation
-- Global variables for state accumulation
-- Basic input/output with `scanf` and `printf`
+- Funções e estrutura modular
+- Laços `do-while` e `while`
+- `switch` para navegação no menu
+- Variáveis globais para acumular estado
+- Entrada e saída básica com `scanf` e `printf`
